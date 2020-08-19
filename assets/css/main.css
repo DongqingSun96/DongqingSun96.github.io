@@ -928,3 +928,12 @@ pre {
   font-style: italic;
   font-size: 1rem;
 }
+
+.carousel-inner .carousel-item {
+  height: 25rem
+}
+
+.carousel-inner .carousel-item img {
+  position: relative;
+  top: -150px
+}
