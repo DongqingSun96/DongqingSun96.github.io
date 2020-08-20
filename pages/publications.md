@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: news
 title: Publications
 subtitle: Publications in Wang Lab
 permalink: /publications
@@ -7,7 +7,7 @@ permalink: /publications
 
 # Publications
 
-Please visit [Google Scholar](https://scholar.google.com/citations?user=ZwKmcpYAAAAJ&hl=en) for more details<br>.
+Please visit [Google Scholar](https://scholar.google.com/citations?user=ZwKmcpYAAAAJ&hl=en) for more details.<br>
 
 ## 2020
 - Sun D#, Wang J#, Han Y#, Dong X, Zheng R, Ge J, Shi X, Wang B, Ren P, Sun L, Yan Y, Zhang P, Zhang F\*, Li T\*, **Wang C\***. TISCH: a comprehensive web resource enabling interactive single-cell transcriptome visualization of tumor microenvironment. bioRxiv 2020 Aug 15.<br>
