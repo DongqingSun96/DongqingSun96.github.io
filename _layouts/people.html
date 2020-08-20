@@ -4,7 +4,9 @@ layout: default
 
 <div class="row">
     <div class="col-lg-3">
-        <img class="item-img" src="/assets/img{{page.permalink}}.png" data-action="zoom">
+        <div style="width: 200px;height: 200px; border-radius:50%; overflow: hidden;">
+            <img src="/assets/img{{page.permalink}}.png" data-action="zoom">
+        </div>
         <div class="row">
             {% if page.office %}
                 <i class="fas fa-building"></i>
