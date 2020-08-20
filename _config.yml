@@ -15,7 +15,7 @@ navbar-links:
   Home: "/"
   News & Events: "news"
   People: "people"
-  Publications: "projects"
+  Publications: "publications"
   Software: "software"
   Positions: "positions"
 
@@ -41,6 +41,7 @@ navbar-links:
 social-network-links:
   email: "08chenfeiwang@tongji.edu.cn"
   github: chenfeiwang
+  twitter: wang_chenfei
   rss: false
 #  reddit: yourname
 #  linkedin: daattali
