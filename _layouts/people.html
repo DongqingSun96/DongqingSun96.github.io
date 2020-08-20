@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="row">
-    <div class="col-lg-3" style="font-size: 0.95rem; padding-top: 1rem">
-        <div class="rounded-circle" style="height: 200px; width: 200px; overflow: hidden;"> 
+    <div class="col-lg-3" style="font-size: 1rem; padding-top: 1rem">
+        <div class="rounded-circle align-self-center" style="height: 200px; width: 200px; overflow: hidden; margin-bottom: 1rem"> 
             <img src="/assets/img{{page.permalink}}.png" data-action="zoom">
         </div>
         <table class="table table-borderless table-sm">
@@ -12,14 +12,14 @@ layout: default
                 {% if page.office %}
                 <tr>
                   <td><i class="fas fa-building"></i></td>
-                  <td>&nbsp;&nbsp;{{page.office}}</td>
+                  <td>{{page.office}}</td>
                 </tr>
                 {% endif %}
 
                 {% if page.eml %}
                 <tr>
                   <td><i class="fas fa-envelope"></i></td>
-                  <td><a href="mailto:{{page.eml}}">&nbsp;&nbsp;{{page.eml}}</a></td>
+                  <td><a href="mailto:{{page.eml}}">{{page.eml}}</a></td>
                 </tr>
                 {% endif %}
 
