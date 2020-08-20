@@ -4,7 +4,7 @@ layout: default
 
 <div class="row">
     <div class="col-lg-3">
-        <img width="200" style="margin-bottom: 10px" src="/assets/img{{page.permalink}}.png" data-action="zoom">
+        <img class="item-img" src="/assets/img{{page.permalink}}.png" data-action="zoom">
         <div class="row">
             {% if page.office %}
                 <i class="fas fa-building"></i>
@@ -14,27 +14,32 @@ layout: default
 
             {% if page.eml %}
                 <i class="fas fa-envelope"></i>
-                <a href="mailto:{{page.eml}}">&nbsp;&nbsp;{{page.eml}}</a> <br>
+                <a href="mailto:{{page.eml}}">&nbsp;&nbsp;{{page.eml}}</a>
+                <br>
             {% endif %}
 
             {% if page.website %}
                 <i class="fas fa-globe"></i>
-                <a href="{{page.website}}">&nbsp;&nbsp;Website</a> <br>
+                <a href="{{page.website}}">&nbsp;&nbsp;Website</a>
+                <br>
             {% endif %}
 
             {% if page.google_scholar %}
                 <i class="fas fa-graduation-cap"></i>
-                <a href="{{page.google_scholar}}">&nbsp;Google Scholar</a> <br>
+                <a href="{{page.google_scholar}}">&nbsp;Google Scholar</a>
+                <br>
             {% endif %}
 
             {% if page.github %}
                 <i class="fab fa-github"></i>
-                <a href="{{page.github}}">&nbsp;&nbsp;GitHub</a> <br>
+                <a href="{{page.github}}">&nbsp;&nbsp;GitHub</a>
+                <br>
             {% endif %}
 
             {% if page.twitter %}
                 <i class="fab fa-twitter"></i>
-                <a href="{{page.twitter}}">&nbsp;&nbsp;Twitter</a> <br>
+                <a href="{{page.twitter}}">&nbsp;&nbsp;Twitter</a>
+                <br>
             {% endif %}
         </div>
     </div>

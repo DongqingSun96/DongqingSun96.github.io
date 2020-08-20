@@ -929,6 +929,8 @@ pre {
   font-size: 1rem;
 }
 
+
+/* carousel */
 .carousel-inner .carousel-item {
   height: 25rem
 }
@@ -936,4 +938,16 @@ pre {
 .carousel-inner .carousel-item img {
   position: relative;
   top: -120px
+}
+
+
+/* circle image*/
+.item-img {
+  max-width: 200px;
+  height: 200px;
+  margin-bottom: 10px
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #777;
 }
