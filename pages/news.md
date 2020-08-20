@@ -6,7 +6,7 @@ permalink: /news
 
 # News and Events
 
-## 2020
+### 2020
 
 #### August
 - Wang lab held the first online Bioinformatics summer training successfully!
