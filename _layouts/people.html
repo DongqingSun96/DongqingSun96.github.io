@@ -14,45 +14,36 @@ layout: default
 
             {% if page.eml %}
                 <i class="fas fa-envelope"></i>
-                <a href="mailto:{{page.eml}}">&nbsp;&nbsp;{{page.eml}}</a>
-                <br>
+                <a href="mailto:{{page.eml}}">&nbsp;&nbsp;{{page.eml}}</a> <br>
             {% endif %}
 
             {% if page.website %}
                 <i class="fas fa-globe"></i>
-                <a href="{{page.website}}">&nbsp;&nbsp;Website</a>
-                <br>
+                <a href="{{page.website}}">&nbsp;&nbsp;Website</a> <br>
             {% endif %}
 
             {% if page.google_scholar %}
                 <i class="fas fa-graduation-cap"></i>
-                <a href="{{page.google_scholar}}">&nbsp;Google Scholar</a>
-                <br>
+                <a href="{{page.google_scholar}}">&nbsp;Google Scholar</a> <br>
             {% endif %}
 
             {% if page.github %}
-                <i class="fab fa-github">
-                <a href="{{page.github}}">&nbsp;&nbsp;GitHub</a>
-                <br>
+                <i class="fab fa-github"></i>
+                <a href="{{page.github}}">&nbsp;&nbsp;GitHub</a> <br>
             {% endif %}
 
             {% if page.twitter %}
                 <i class="fab fa-twitter"></i>
-                <a href="{{page.twitter}}">&nbsp;&nbsp;Twitter</a>
-                <br>
+                <a href="{{page.twitter}}">&nbsp;&nbsp;Twitter</a> <br>
             {% endif %}
         </div>
     </div>
     <div class="col-lg-9">
-        <!--<h3>Bio</h3>-->
         <h3>{{page.pname}}</h3>
         <p>{{page.desp}}</p>
     </div>
 </div>
 
 <hr>
-
-<!--<h3>Research Interests</h3>-->
-<!--<p>{{page.research}}</p>-->
 
 {{content}}
