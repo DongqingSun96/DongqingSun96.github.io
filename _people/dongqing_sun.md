@@ -2,7 +2,7 @@
 title: Dongqing Sun
 layout: people
 permalink: /people/dongqing_sun
-status: Students
+status: Student
 pname: Dongqing Sun
 position: PhD student
 eml: dongqingsun96@gmail.com
